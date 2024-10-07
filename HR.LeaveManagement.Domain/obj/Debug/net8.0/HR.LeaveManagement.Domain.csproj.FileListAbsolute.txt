@@ -9,3 +9,4 @@ D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Domain\obj\Debug\net8.0\HR
 D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Domain\obj\Debug\net8.0\refint\HR.LeaveManagement.Domain.dll
 D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Domain\obj\Debug\net8.0\HR.LeaveManagement.Domain.pdb
 D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Domain\obj\Debug\net8.0\ref\HR.LeaveManagement.Domain.dll
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Domain\obj\Debug\net8.0\HR.LeaveManagement.Domain.sourcelink.json

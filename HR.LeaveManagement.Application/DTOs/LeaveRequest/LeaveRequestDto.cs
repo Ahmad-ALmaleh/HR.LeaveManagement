@@ -1,4 +1,6 @@
-﻿using HR.LeaveManagement.Domain;
+﻿using HR.LeaveManagement.Application.DTOs.Common;
+using HR.LeaveManagement.Application.DTOs.LeaveType;
+using HR.LeaveManagement.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace HR.LeaveManagement.Application.DTOs.LeaveRequest
 {
-    public class LeaveRequestDto
+    public class LeaveRequestDto : BaseDto
     {
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }

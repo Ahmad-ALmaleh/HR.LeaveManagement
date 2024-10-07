@@ -13,3 +13,4 @@ D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8
 D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\refint\HR.LeaveManagement.Application.dll
 D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.pdb
 D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\ref\HR.LeaveManagement.Application.dll
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.sourcelink.json
