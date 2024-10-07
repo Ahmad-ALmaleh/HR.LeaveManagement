@@ -1,0 +1,15 @@
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\bin\Debug\net8.0\HR.LeaveManagement.Application.deps.json
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\bin\Debug\net8.0\HR.LeaveManagement.Application.dll
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\bin\Debug\net8.0\HR.LeaveManagement.Application.pdb
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\bin\Debug\net8.0\HR.LeaveManagement.Domain.dll
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\bin\Debug\net8.0\HR.LeaveManagement.Domain.pdb
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.csproj.AssemblyReference.cache
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.AssemblyInfoInputs.cache
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.AssemblyInfo.cs
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.csproj.CoreCompileInputs.cache
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.Leave.CEB84392.Up2Date
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.dll
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\refint\HR.LeaveManagement.Application.dll
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.pdb
+D:\asp proj\HR.LeaveManagement.Api\HR.LeaveManagement.Application\obj\Debug\net8.0\ref\HR.LeaveManagement.Application.dll
