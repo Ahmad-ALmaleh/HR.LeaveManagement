@@ -14,6 +14,7 @@ builder.Services.ConfigureInfrastructureServices(builder.Configuration);
 //builder.Services.ConfigurePersistenceServices(builder.Configuration);
 builder.Services.ConfigurePersistenceServices(builder.Configuration);
 
+
 builder.Services.AddControllers();
 
 builder.Services.AddCors(o =>

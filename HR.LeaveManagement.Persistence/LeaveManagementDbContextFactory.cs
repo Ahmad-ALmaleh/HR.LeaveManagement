@@ -10,14 +10,15 @@ using System.Threading.Tasks;
 
 namespace HR.LeaveManagement.Persistence
 {
+
     public class LeaveManagementDbContextFactory : IDesignTimeDbContextFactory<LeaveManagementDbContext>
     {
         public LeaveManagementDbContext CreateDbContext(string[] args)
         {
-            // Using ConfigurationManager in .NET 6/7/8
-            var configuration = new ConfigurationManager();
-            configuration.SetBasePath(Directory.GetCurrentDirectory())
-                         .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
 
             var builder = new DbContextOptionsBuilder<LeaveManagementDbContext>();
             var connectionString = configuration.GetConnectionString("LeaveManagementConnectionString");
@@ -27,4 +28,23 @@ namespace HR.LeaveManagement.Persistence
             return new LeaveManagementDbContext(builder.Options);
         }
     }
+
+
+    //public class LeaveManagementDbContextFactory : IDesignTimeDbContextFactory<LeaveManagementDbContext>
+    //{
+    //    public LeaveManagementDbContext CreateDbContext(string[] args)
+    //    {
+    //        // Using ConfigurationManager in .NET 6/7/8
+    //        var configuration = new ConfigurationManager();
+    //        configuration.SetBasePath(Directory.GetCurrentDirectory())
+    //                     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+
+    //        var builder = new DbContextOptionsBuilder<LeaveManagementDbContext>();
+    //        var connectionString = configuration.GetConnectionString("LeaveManagementConnectionString");
+
+    //        builder.UseSqlServer(connectionString);
+
+    //        return new LeaveManagementDbContext(builder.Options);
+    //    }
+    //}
 }
