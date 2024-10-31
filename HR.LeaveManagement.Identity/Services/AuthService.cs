@@ -1,4 +1,5 @@
 ﻿
+using HR.LeaveManagement.Application.Constants;
 using HR.LeaveManagement.Application.Models.Identity;
 using HR.LeaveManagement.Application.Persistence.Identity;
 using HR.LeaveManagement.Identity.Models;
@@ -116,7 +117,7 @@ namespace HR.LeaveManagement.Identity.Services
                 new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                 new Claim(JwtRegisteredClaimNames.Email, user.Email),
-                new Claim("Uid", user.Id)
+                new Claim(CustomClaimTypes.Uid, user.Id)
             }
             .Union(userClaims)
             .Union(roleClaims);
